@@ -36,3 +36,5 @@ jobs:
           ls
           python3 --version
           pip3 list
+          ls ../../..
+          mkdocs build
