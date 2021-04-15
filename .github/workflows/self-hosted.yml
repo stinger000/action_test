@@ -35,6 +35,5 @@ jobs:
           pwd
           ls
           python3 --version
-          pip3 list
-          ls ../../..
+          deploy_docs.sh
           mkdocs build
